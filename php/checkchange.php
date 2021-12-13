@@ -1,7 +1,7 @@
 <?php
 session_start();
 echo "<head><title>Redirecting.....</title><body style='background-color:#002933'></head>";
-$link = mysqli_connect("localhost", "admin", "MZ@26102001n", "users");
+$link = mysqli_connect("localhost", "root", "admin", "users");
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
